@@ -105,4 +105,4 @@ This project transforms fragmented retail data into a scalable, auditable analyt
 ---
 
 **GitHub Link:** https://github.com/Aarongoldmananalyst/MarketEdge-Retail-Analytics  
-**LinkedIn Project Post:** 
+**LinkedIn Project Post:** https://www.linkedin.com/in/aaron-goldmans/
