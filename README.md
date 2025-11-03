@@ -77,4 +77,4 @@ SQL tests for data validation:
 Executives now have **real-time store-level profitability insights**, enabling data-driven decisions in pricing, promotions, and inventory management. The project demonstrates a **repeatable, scalable analytics framework** suitable for retail or e-commerce organizations.
 
 **GitHub Link:** https://github.com/Aarongoldmananalyst/MarketEdge-Retail-Analytics  
-**LinkedIn Project Post:** https://www.linkedin.com/in/aaron-goldmans/
+**LinkedIn Project Post:** https://www.linkedin.com/in/aaron-goldmans/details/projects/
