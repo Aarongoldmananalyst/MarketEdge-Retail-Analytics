@@ -1,5 +1,3 @@
-# MarketEdge-Retail-Analytics
-End-to-end SQL, Python, and Tableau analytics project addressing retail margin erosion through data-driven insights, automated pipelines, and interactive dashboards.
 # 🛍 MarketEdge Retail Analytics
 
 **Delivering Data-Driven Insights for Smarter Retail Strategy and Inventory Management**
@@ -7,102 +5,76 @@ End-to-end SQL, Python, and Tableau analytics project addressing retail margin e
 ---
 
 ## 🔹 Project Overview
-MarketEdge Retail Analytics is a full-stack data analytics project designed to address margin erosion in a mid-market retail chain. Despite a 9% sales increase over three years, gross margin declined by 2.1 percentage points due to fragmented promotions, inventory misalignment, and weak visibility into store-level performance.
+MarketEdge Retail Analytics is a full-stack data analytics project designed to uncover profit leakage in a mid-market retail chain. Using **SQL, Python, dbt, and Tableau**, the project integrates multi-source sales, inventory, and promotion data to build a scalable analytics layer and interactive dashboards for Finance and Operations teams.
 
-Using **SQL, Python (pandas), dbt, and Tableau**, this project integrates multi-source sales, inventory, and promotion data to uncover hidden profitability drivers and provide executive teams with actionable insights.
-
----
-
-## 🔹 Business Challenge
-- Profit margin decline despite rising sales  
-- ~$4.5M annual loss from stockouts, overstocking, and mispriced promotions  
-- Competitors leveraging real-time analytics for agile pricing and inventory  
-
-**Goal:** Design a repeatable, SQL-driven analytics layer and an interactive Tableau dashboard to empower Finance and Operations teams to protect margins and increase market share.
-
----
-
-## 🔹 Tools & Technologies
-- **SQL / dbt**: Data extraction, transformation, modeling, reusable CTEs  
-- **Python (pandas)**: Data cleaning, validation, currency harmonization  
-- **Tableau / Tableau Prep**: Interactive dashboards, KPI ribbons, filters, role-based views  
-- **PostgreSQL**: Relational database for raw and transformed data  
-- **Snowflake-ready pipeline**: For scalability and enterprise deployment  
-
----
-
-## 🔹 Key Deliverables
-- **Staging Models:** Cleaned sales, inventory, promotions, and customer data  
-- **Marts / Fact Tables:** Profit margins, inventory turnover, promo lift calculations  
-- **Dimensions:** Customer segments, product categories  
-- **Dashboards:** Store performance summaries, KPIs, and region comparisons  
-- **Automated Pipeline:** dbt transformations + nightly Tableau Hyper publishing  
-
----
-
-## 🔹 Insights & Impact
-- Electronics margin dropped 4 ppt during holiday months due to discounting  
-- Top 7% “Champion” customers generated 41% of total profit  
-- Western region baskets averaged 12% higher than chain-wide  
-- 22% of SKUs overstocked, tying $3.1M in inventory  
-- Supplier contract terms influenced 34% of margin variability  
-
-**Result:** Projected $4.5M margin recovery and +2.1 ppt EBITDA improvement with actionable strategies.
-
----
-
-## 🔹 How It Works
-1. Extract raw data from sales, inventory, and promotion tables  
-2. Clean, validate, and harmonize datasets using Python  
-3. Transform and model data with dbt, creating reusable fact and dimension tables  
-4. Load cleaned datasets into Tableau for dashboards and KPI visualizations  
-5. Provide insights for executive decision-making in pricing, promotions, and inventory
+Key outcomes include identifying $4.5M in potential margin recovery, 41% of profit driven by the top 7% of customers, and insights for actionable supplier and inventory decisions.
 
 ---
 
 ## 🔹 Repository Structure
-marketedge_retail_analytics/
-│
-├── data/ # Sample CSV data (sales, inventory, customers, promotions)
-├── models/ # dbt models: staging, marts, dashboards
-├── tests/ # SQL tests for data quality
-├── dbt_project.yml # dbt project configuration
-├── profiles.yml # Database connection config
-└── README.md # Project documentation
 
-yaml
-Copy code
+### 1️⃣ Data (`/data`)
+Contains sample datasets (sanitized CSVs) used to run the project.
+- [`raw_sales.csv`](data/raw_sales.csv)
+- [`raw_inventory.csv`](data/raw_inventory.csv)
+- [`raw_customers.csv`](data/raw_customers.csv)
+- [`raw_promotions.csv`](data/raw_promotions.csv)
 
----
+### 2️⃣ Models (`/models`)
+#### a) Staging (`/models/staging`)
+Clean and standardize raw data before analytics:
+- [`stg_sales.sql`](models/staging/stg_sales.sql) – clean sales table  
+- [`stg_inventory.sql`](models/staging/stg_inventory.sql) – cleaned inventory data  
+- [`stg_customers.sql`](models/staging/stg_customers.sql) – standardized customer info  
+- [`stg_promotions.sql`](models/staging/stg_promotions.sql) – promotion details  
 
-## 🔹 Screenshots / Dashboard Preview
-*(Add screenshots of your Tableau dashboard here to make it visually appealing)*
+#### b) Marts (`/models/marts`)
+Analytics-ready tables:
+- [`fact_sales_margin.sql`](models/marts/fact_sales_margin.sql) – calculates store-level profit margins  
+- [`dim_customer_segment.sql`](models/marts/dim_customer_segment.sql) – segments customers by spend  
+
+#### c) Dashboards (`/models/dashboards`)
+Aggregated tables feeding Tableau dashboards:
+- [`store_performance_summary.sql`](models/dashboards/store_performance_summary.sql) – combines sales, margin, and inventory KPIs  
+
+### 3️⃣ Scripts (`/scripts`)
+Python scripts used for data cleaning and preparation:
+- [`clean_sales.py`](scripts/clean_sales.py) – remove duplicates, harmonize sales data  
+- [`harmonize_inventory.py`](scripts/harmonize_inventory.py) – normalize stock and currency values  
+- [`validate_data.py`](scripts/validate_data.py) – ensure consistency across tables  
+
+### 4️⃣ Tests (`/tests`)
+SQL tests for data validation:
+- [`not_null_margin.sql`](tests/not_null_margin.sql) – checks for missing margin values  
+
+### 5️⃣ Configuration
+- [`dbt_project.yml`](dbt_project.yml) – dbt project configuration  
+- [`profiles.yml`](profiles.yml) – database connection settings (example only)  
+- `.gitignore` – ignores temporary, sensitive, and environment files  
 
 ---
 
 ## 🔹 How to Run
-1. Install **dbt** and **Python dependencies**  
+1. Install **dbt**, Python dependencies, and Tableau  
 2. Configure your database connection in `profiles.yml`  
-3. Load sample CSV data (`dbt seed`)  
+3. Load sample CSVs (`dbt seed`)  
 4. Run dbt models: `dbt run`  
 5. Test transformations: `dbt test`  
-6. Connect Tableau to the transformed data for visualization  
+6. Connect Tableau to the transformed data for dashboards  
 
 ---
 
 ## 🔹 Key Skills Demonstrated
 - SQL & dbt modeling  
 - Python data cleaning and validation  
-- Tableau dashboard creation  
-- Data pipeline automation  
-- Business problem-solving and ROI analysis  
+- Tableau dashboard creation and storytelling  
+- Data pipeline automation and reproducibility  
+- Business insights and ROI analysis  
 
 ---
 
 ## 🔹 Outcome
-This project transforms fragmented retail data into a scalable, auditable analytics solution. Executives gain **real-time store-level profitability insights**, enabling data-driven decisions in pricing, promotions, and inventory management.
-
----
+Executives now have **real-time store-level profitability insights**, enabling data-driven decisions in pricing, promotions, and inventory management. The project demonstrates a **repeatable, scalable analytics framework** suitable for retail or e-commerce organizations.
 
 **GitHub Link:** https://github.com/Aarongoldmananalyst/MarketEdge-Retail-Analytics  
 **LinkedIn Project Post:** https://www.linkedin.com/in/aaron-goldmans/
