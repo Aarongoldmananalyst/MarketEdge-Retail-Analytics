@@ -110,7 +110,7 @@ Below are direct links to each major component of the project.
 
 
 
-🧰 Key Skills Demonstrated
+🧰 Key Skills Demonstrated :
 
 ✅ SQL data modeling with dbt
 
@@ -124,11 +124,15 @@ Below are direct links to each major component of the project.
 
 
 
+
+
 🌟 Project Impact
 
 This project demonstrates how a data analyst can deliver measurable business value by connecting data engineering,
 analytics, and visualization.
 Executives now have real-time profitability dashboards, enabling faster, data-driven decisions that protect and grow margins.
+
+
 
 🔗 Connect & Explore
 
