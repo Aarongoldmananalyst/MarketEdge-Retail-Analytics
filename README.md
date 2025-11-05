@@ -108,6 +108,39 @@ Below are direct links to each major component of the project.
 </p>
 
 
+
+
+🧰 Key Skills Demonstrated
+
+✅ SQL data modeling with dbt
+
+✅ Python ETL scripting and data validation
+
+✅ Tableau dashboard design and storytelling
+
+✅ Business insight generation (ROI, profit segmentation)
+
+✅ End-to-end data pipeline design
+
+
+
+🌟 Project Impact
+
+This project demonstrates how a data analyst can deliver measurable business value by connecting data engineering,
+analytics, and visualization.
+Executives now have real-time profitability dashboards, enabling faster, data-driven decisions that protect and grow margins.
+
+🔗 Connect & Explore
+
+📊 GitHub Repository: MarketEdge Retail Analytics
+
+💼 LinkedIn Project Showcase: View Here
+
+📧 Contact: Aaron Goldman
+
+🏁 License
+MIT License — freely available for learning and professional demonstration.
+
 ---
 
 ## 🚀 Quickstart Guide
