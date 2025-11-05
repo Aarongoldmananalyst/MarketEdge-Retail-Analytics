@@ -4,20 +4,19 @@
 ---
 
 ## 🔍 About This Project
-**MarketEdge Retail Analytics** is a full-stack data analytics solution built to uncover profit leakage in a mid-market retail chain.  
-Using **SQL**, **Python**, **dbt**, and **Tableau**, it integrates sales, inventory, and promotion data into a unified, scalable analytics platform that enables **Finance** and **Operations** teams to make smarter, faster decisions.
+**MarketEdge Retail Analytics** is a full-stack data analytics solution designed to uncover profit leakage in a mid-market retail chain.  
+Using **SQL**, **Python**, **dbt**, and **Tableau**, it integrates sales, inventory, and promotion data into a unified, scalable analytics platform that empowers **Finance** and **Operations** teams to make smarter, faster decisions.
 
-📈 **Key outcomes**:
+📈 **Key Outcomes**
 - Identified **$4.5M** in potential margin recovery  
 - Found that **41% of profit** came from the **top 7% of customers**  
-- Provided actionable supplier and inventory insights that improved ROI  
+- Delivered actionable supplier and inventory insights to improve ROI  
 
 ---
 
 ## 🖼️ Project Banner
 <p align="center">
-  <<img width="1536" height="1024" alt="4ba1b92b-7bbf-4ef4-b132-921597f80ebb" src="https://github.com/user-attachments/assets/3273aea0-894a-4c86-b27b-f631cd9aff1c" />
-">
+  <img width="1200" alt="MarketEdge Banner" src="visuals/marketedge_banner.png">
 </p>
 
 ---
