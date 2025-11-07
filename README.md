@@ -59,9 +59,7 @@ This project is open-source under the **MIT License** — free for professional 
   <a href="data/sample_sales_data.csv" target="_blank">
     <img src="https://img.shields.io/badge/📊_Download_Sample_Dataset-2ca02c?style=for-the-badge&logo=csv&logoColor=white"/>
   </a>
-  <a href="visuals/store_profitability_chart.png" target="_blank">
-    <img src="https://img.shields.io/badge/🖼️_View_Profitability_Chart-f39c12?style=for-the-badge&logo=chartdotjs&logoColor=white"/>
-  </a>
+ 
   <a href="docs/MarketEdge_Retail_Analytics_Presentation.pdf" target="_blank">
     <img src="https://img.shields.io/badge/📄_Read_Project_Deck_(PDF)-9b59b6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
   </a>
