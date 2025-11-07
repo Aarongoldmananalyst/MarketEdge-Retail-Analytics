@@ -1,0 +1,6 @@
+date,store,sku,category,revenue,cost,quantity,customer_id,region
+2024-01-03,Store_A,SKU_101,Electronics,1890,970,7,C001,North
+2024-01-05,Store_B,SKU_102,Apparel,1120,580,5,C002,South
+2024-01-07,Store_C,SKU_103,Home Decor,1640,980,6,C003,East
+2024-01-09,Store_D,SKU_104,Electronics,1750,1100,8,C004,West
+2024-01-11,Store_E,SKU_105,Grocery,820,440,4,C005,South
