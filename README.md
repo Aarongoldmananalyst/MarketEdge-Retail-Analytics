@@ -1,6 +1,6 @@
 <p align="center">
 <img width="1536" height="1024" alt="6d1a1680-e33d-44b1-b3d3-85c8e8e242d0" src="https://github.com/user-attachments/assets/806bddde-1ae1-4484-bc6a-78491a44faa6" />
-">
+
 </p>
 
 # 🛍 MarketEdge Retail Analytics
