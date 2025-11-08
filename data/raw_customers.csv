@@ -1,0 +1,6 @@
+customer_id,region,sign_up_date,lifetime_value
+C001,North,2021-04-12,24000
+C002,South,2022-01-18,8200
+C003,East,2020-11-02,15600
+C004,West,2019-06-22,9800
+C005,South,2021-09-09,6200
