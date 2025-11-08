@@ -1,0 +1,6 @@
+as_of_date,store,sku,on_hand,reorder_point,unit_cost
+2024-02-01,Store_A,SKU_101,35,15,130
+2024-02-01,Store_B,SKU_102,58,20,45
+2024-02-01,Store_C,SKU_103,22,10,110
+2024-02-01,Store_D,SKU_104,17,10,140
+2024-02-01,Store_E,SKU_105,95,40,20
