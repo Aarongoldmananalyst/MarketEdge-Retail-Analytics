@@ -1,0 +1,5 @@
+promo_id,sku,start_date,end_date,discount_pct,promo_type
+PR001,SKU_101,2024-01-01,2024-01-10,0.10,NewYear
+PR002,SKU_112,2024-01-20,2024-01-27,0.15,Clearance
+PR003,SKU_120,2024-02-05,2024-02-15,0.08,Valentines
+PR004,SKU_124,2024-02-16,2024-02-28,0.12,WinterSale
