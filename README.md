@@ -103,12 +103,21 @@ MarketEdge integrates fragmented datasets into a unified analytics model that en
 - [raw_customers.csv](data/raw_customers.csv)
 - [raw_promotions.csv](data/raw_promotions.csv)
 
-### 🧱 Models
-#### 🔹 Staging
+## 🧱 Models
+
+### 🔹 Staging
 - [stg_sales.sql](models/staging/stg_sales.sql)
 - [stg_inventory.sql](models/staging/stg_inventory.sql)
 - [stg_customers.sql](models/staging/stg_customers.sql)
 - [stg_promotions.sql](models/staging/stg_promotions.sql)
+
+### 🔹 Marts
+- [fact_sales_margin.sql](models/marts/fact_sales_margin.sql)
+- [dim_customer_segment.sql](models/marts/dim_customer_segment.sql)
+
+### 🔹 Dashboards
+- [store_performance_summary.sql](models/dashboards/store_performance_summary.sql)
+
 
 #### 🔹 Marts
 - [fact_sales_margin.sql](models/marts/fact_sales_margin.sql)
