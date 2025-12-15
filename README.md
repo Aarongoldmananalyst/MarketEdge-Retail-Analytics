@@ -6,6 +6,9 @@
 # 🛍 MarketEdge Retail Analytics
 **Delivering Data-Driven Insights for Smarter Retail Strategy and Inventory Management**
 
+## Executive Summary: 
+Unified retail sales, inventory, and customer data to identify margin expansion opportunities, optimize inventory health, and improve store-level decision-making.
+
 ---
 
 ## 🔍 About This Project
@@ -80,8 +83,10 @@ Recruiters can preview the full presentation deck directly below 👇
 ---
 
 ## 📈 Key Outcomes  
-💰 **Recovered $4.5M** in margin opportunity  
+💰 **Identified $4.5M** in recoverable margin opportunity through pricing and inventory optimization
+
 👥 **41% of profit** driven by top 7% of customers  
+
 📊 **Real-time profitability** visibility across stores  
 
 ---
