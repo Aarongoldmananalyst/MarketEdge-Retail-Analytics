@@ -188,6 +188,6 @@ Executives now have real-time dashboards that drive data-informed pricing, promo
 ## 🔗 Connect & Explore  
 
 [![📊 GitHub Repository](https://img.shields.io/badge/📊_GitHub_Repository-1f77b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aarongoldmananalyst/MarketEdge-Retail-Analytics)
-[![💼 LinkedIn Project Showcase](https://img.shields.io/badge/💼_LinkedIn_Project_Showcase-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-goldmans/details/projects/)
-[![📧 Contact Aaron Goldman](https://img.shields.io/badge/📧_Contact_Aaron_Goldman-e74c3c?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aaron.goldman@email.com)
+[![💼 LinkedIn Project Showcase](https://img.shields.io/badge/💼_LinkedIn_Project_Showcase-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-goldmans)
+[![📧 Contact Aaron Goldman](https://img.shields.io/badge/📧_Contact_Aaron_Goldman-e74c3c?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aarondatascientist@gmail.com)
 
