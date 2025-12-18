@@ -9,41 +9,27 @@
 ## Executive Summary: 
 Unified retail sales, inventory, and customer data to identify margin expansion opportunities, optimize inventory health, and improve store-level decision-making.
 
+This project demonstrates how retail analytics can directly improve profitability, inventory efficiency, and executive decision-making.
+
 ---
 
 ## 🔍 About This Project
-**MarketEdge Retail Analytics** is a full-stack data analytics solution built to uncover profit leakage in a mid-market retail chain.  
+**MarketEdge Retail Analytics** is a full-stack data analytics solution built to uncover profit leakage in a retail retail environment. The project uses **dbt-style transformations and a modeling structure** to organize raw sales, inventory, and promotion data into analysis-ready tables that support downstream analytics and dashboards.
+.  
 Using **SQL, Python, dbt, and Tableau**, the project unifies multi-source sales, inventory, and promotion data into a scalable analytics ecosystem.
 
 ---
 
 ## 🧠 Tech Stack & Tools
-<p align="center">
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </a>
-  <a href="https://www.postgresql.org/" target="_blank">
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  </a>
-  <a href="https://www.getdbt.com/" target="_blank">
-    <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt"/>
-  </a>
-  <a href="https://www.tableau.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank">
-    <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  </a>
-  <a href="https://numpy.org/" target="_blank">
-    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  </a>
-  <a href="https://github.com/" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)](https://www.getdbt.com/)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://www.tableau.com/)
+[![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
 
 ---
@@ -55,18 +41,10 @@ This project is open-source under the **MIT License** — free for professional 
 
 ## 🔗 Quick Links  
 
-<p align="center">
-  <a href="notebooks/MarketEdge_Analysis.ipynb" target="_blank">
-    <img src="https://img.shields.io/badge/📓_View_Jupyter_Notebook-1f77b4?style=for-the-badge&logo=jupyter&logoColor=white"/>
-  </a>
-  <a href="data/sample_sales_data.csv" target="_blank">
-    <img src="https://img.shields.io/badge/📊_Download_Sample_Dataset-2ca02c?style=for-the-badge&logo=csv&logoColor=white"/>
-  </a>
- 
-  <a href="docs/MarketEdge_Retail_Analytics_Presentation.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/📄_Read_Project_Deck_(PDF)-9b59b6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
-  </a>
-</p>
+[![📓 View Jupyter Notebook](https://img.shields.io/badge/📓_View_Jupyter_Notebook-1f77b4?style=for-the-badge&logo=jupyter&logoColor=white)](notebooks/MarketEdge_Analysis.ipynb)
+[![📊 Download Sample Dataset](https://img.shields.io/badge/📊_Download_Sample_Dataset-2ca02c?style=for-the-badge&logo=csv&logoColor=white)](data/sample_sales_data.csv)
+[![📄 Read Project Deck (PDF)](https://img.shields.io/badge/📄_Read_Project_Deck_(PDF)-9b59b6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](docs/MarketEdge_Retail_Analytics_Presentation.pdf)
+
 
 
 ---
@@ -108,6 +86,9 @@ MarketEdge integrates fragmented datasets into a unified analytics model that en
 - [raw_customers.csv](data/raw_customers.csv)
 - [raw_promotions.csv](data/raw_promotions.csv)
 
+
+---
+
 ## 🧱 Models
 
 ### 🔹 Staging
@@ -131,13 +112,24 @@ MarketEdge integrates fragmented datasets into a unified analytics model that en
 #### 🔹 Dashboards
 - [store_performance_summary.sql](models/dashboards/store_performance_summary.sql)
 
+
+---
+
+
 ### 🐍 Scripts
 - [clean_sales.py](scripts/clean_sales.py)
 - [harmonize_inventory.py](scripts/harmonize_inventory.py)
 - [validate_data.py](scripts/validate_data.py)
 
+---
+
+
 ### ✅ Tests
 - [not_null_margin.sql](tests/not_null_margin.sql)
+
+
+---
+
 
 ### ⚙️ Config & Metadata
 - [dbt_project.yml](dbt_project.yml)
@@ -165,6 +157,12 @@ MarketEdge integrates fragmented datasets into a unified analytics model that en
 
 ---
 
+## Business Recommendations
+- Prioritize high-margin, low-inventory-risk SKUs
+- Adjust replenishment strategies for underperforming stores
+- Use Pareto analysis to focus margin optimization on top-impact locations
+---
+
 ## 🧰 Key Skills Demonstrated
 ✅ SQL data modeling with dbt  
 ✅ Python ETL scripting & data validation  
@@ -182,14 +180,7 @@ Executives now have real-time dashboards that drive data-informed pricing, promo
 
 ## 🔗 Connect & Explore  
 
-<p align="center">
-  <a href="https://github.com/Aarongoldmananalyst/MarketEdge-Retail-Analytics" target="_blank">
-    <img src="https://img.shields.io/badge/📊_GitHub_Repository-1f77b4?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
-  </a>
-  <a href="https://www.linkedin.com/in/aaron-goldmans/details/projects/" target="_blank">
-    <img src="https://img.shields.io/badge/💼_LinkedIn_Project_Showcase-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Project Showcase"/>
-  </a>
-  <a href="mailto:aaron.goldman@email.com" target="_blank">
-    <img src="https://img.shields.io/badge/📧_Contact_Aaron_Goldman-e74c3c?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Contact"/>
-  </a>
-</p>
+[![📊 GitHub Repository](https://img.shields.io/badge/📊_GitHub_Repository-1f77b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aarongoldmananalyst/MarketEdge-Retail-Analytics)
+[![💼 LinkedIn Project Showcase](https://img.shields.io/badge/💼_LinkedIn_Project_Showcase-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaron-goldmans/details/projects/)
+[![📧 Contact Aaron Goldman](https://img.shields.io/badge/📧_Contact_Aaron_Goldman-e74c3c?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aaron.goldman@email.com)
+
