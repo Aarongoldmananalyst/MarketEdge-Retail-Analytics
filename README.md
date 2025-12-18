@@ -82,7 +82,8 @@ MarketEdge integrates fragmented datasets into a unified analytics model that en
 
 ---
 
-## 🗂️ Repository Structure & Clickable Files
+## Repository Structure & Clickable Files 👇
+
 
 ---
 
