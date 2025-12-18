@@ -14,9 +14,12 @@ This project demonstrates how retail analytics can directly improve profitabilit
 ---
 
 ## 🔍 About This Project
-**MarketEdge Retail Analytics** is a full-stack data analytics solution built to uncover profit leakage in a retail retail environment. The project uses **dbt-style transformations and a modeling structure** to organize raw sales, inventory, and promotion data into analysis-ready tables that support downstream analytics and dashboards.
+**MarketEdge Retail Analytics** is a full-stack data analytics solution built to uncover profit leakage in a retail retail environment. The project uses **dbt-style transformations and a modeling structure** (layered staging and marts).
 .  
 Using **SQL, Python, dbt, and Tableau**, the project unifies multi-source sales, inventory, and promotion data into a scalable analytics ecosystem.
+
+The workflow follows a structured pipeline from raw data ingestion, through transformation and modeling, to analytics-ready marts that power dashboards and business insights.
+
 
 ---
 
@@ -80,6 +83,9 @@ MarketEdge integrates fragmented datasets into a unified analytics model that en
 ---
 
 ## 🗂️ Repository Structure & Clickable Files
+
+---
+
 ### 📁 Data
 - [raw_sales.csv](data/raw_sales.csv)
 - [raw_inventory.csv](data/raw_inventory.csv)
